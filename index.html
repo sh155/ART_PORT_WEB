@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sheridan Salter Fine Art Portfolio </title>
+     <style>    
+    </style>
+</head>
+<body>
+
+   <!-- Navigation Header -->
+        <header>
+            <div class="header-content" style="display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; width: 100%;">
+                
+                <!-- Brand / Name on the Left -->
+                <a href="#artwork" class="logo" style="text-decoration: none; color: inherit;">
+                    Sheridan Salter<br>
+                    <span style="font-size: 0.7em; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.8;">Portfolio</span>
+                </a>
+
+                <!-- Nav Links pushed to the Right -->
+                <nav>
+                    <ul style="list-style: none; display: flex; gap: 2.5rem; margin: 0; padding: 0;">
+                        <li><a href="#artwork">Artwork</a></li>
+                        <li><a href="#about">Statement & History</a></li>
+                        <li><a href="#cv">CV</a></li>
+                        <li><a href="#inquire">Inquire</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+    <main>
+        <!-- 1. Artwork Gallery Section (10 Pieces) -->
+        <section id="artwork" class="section">
+            <h2 class="section-title">Selected Works</h2>
+            <div class="gallery-grid">
+                
+                <!-- Work 1 -->
+                <div class="art-card" onclick="openLightbox('assets/Still_Life.webp', 'Still Life In Red', 'Oil on Canvas — 11&quot; x 14&quot;')">
+                    <div class="art-image-wrapper">
+                        <img src= "assets/Still_Life.webp" alt="Still Life Painting">
+                    </div>
+                    <div class="art-details">
+                        <h3 class="art-title">Still Life In Red</h3>
+                        <p class="art-meta">Oil on Canvas — 11" x 14" </p>
+                    </div>
+                </div>
+
+                <!-- Work 2 -->
+                <div class="art-card" onclick="openLightbox('assets/CSP_TrafLAW.webp', 'Trafalgar Law Study', 'Digital CSP — 1848&quot; x 1848&quot; 300 DPI')">
+                    <div class="art-image-wrapper">
+                        <img src= "assets/CSP_TrafLAW.webp" alt="Trafalgar Law Study">
+                    </div>
+                    <div class="art-details">
+                        <h3 class="art-title">Trafalgar Law Study</h3>
+                        <p class="art-meta">Digital CSP — 1848" x 1848" 300 DPI" </p>
+                    </div>
+                </div>
+
+                <!-- Work 3 -->
+                <div class="art-card" onclick="openLightbox('assets/DivineViolence.webp', 'Divine Violence', 'Mixed Media on Watercolor Paper — 18&quot; x 24&quot;')">
+                    <div class="art-image-wrapper">
+                        <img src="assets/DivineViolence.webp" alt="Divine Violence">
+                    </div>
+                    <div class="art-details">
+                        <h3 class="art-title">Divine Violence</h3>
+                        <p class="art-meta">Mixed Media on Watercolor Paper — 18" x 24"</p>
+                    </div>
+                </div>
+
+                <!-- Work 4 -->
+                <div class="art-card" onclick="openLightbox('assets/Heart_Rot.webp', 'Heart Rot', 'Oil on Canvas — 18&quot; x 24&quot;')">
+                    <div class="art-image-wrapper">
+                        <img src="assets/Heart_Rot.webp" alt="Heart Rot">
+                    </div>
+                    <div class="art-details">
+                        <h3 class="art-title">Heart Rot</h3>
+                        <p class="art-meta">Oil on Canvas — 18" x 24"</p>
+                    </div>
+                </div>
+
+                <!-- Work 5 -->
+                <div class="art-card" onclick="openLightbox('assets/ItsButAFleetingMemory.webp', 'It\'s But A Fleeting Memory', 'Oil Wax Medium on Canvas — 18&quot; x 24&quot;')">
+                    <div class="art-image-wrapper">
+                        <img src="assets/ItsButAFleetingMemory.webp" alt="It's But A Fleeting Memory">
+                    </div>
+                    <div class="art-details">
+                        <h3 class="art-title">It's But A Fleeting Memory</h3>
+                        <p class="art-meta">Oil Wax Medium on Canvas — 18" x 24"</p>
+                    </div>
+                </div>
+
+                <!-- Work 6 -->
+                <div class="art-card" onclick="openLightbox('assets/HARPERLEE.webp', 'Harper Lee Portrait', 'Ink On Paper — 11&quot; x 14&quot;')">
+                    <div class="art-image-wrapper">
+                        <img src="assets/HARPERLEE.webp" alt="Harper Lee Portrait">
+                    </div>
+                    <div class="art-details">
+                        <h3 class="art-title">Ink On Paper</h3>
+                        <p class="art-meta">Ink On Paper — 11" x 14"</p>
+                    </div>
+                </div>
+
+                <!-- Work 7 -->
+                <div class="art-card" onclick="openLightbox('assets/EVERGREEN.webp', 'Evergreen', 'Oil on Canvas — 11&quot; x 14&quot;')">
+                    <div class="art-image-wrapper">
+                        <img src="assets/EVERGREEN.webp" alt="Evergreen oil painting">
+                    </div>
+                    <div class="art-details">
+                        <h3 class="art-title">Evergreen</h3>
+                        <p class="art-meta">Oil on Canvas — 11" x 14"</p>
+                    </div>
+                </div>
+
+                <!-- Work 8 -->
+                <div class="art-card" onclick="openLightbox('assets/RAGEOFSTARS.webp', 'Rage of Stars', 'Mixed Media on Paper — 18&quot; x 24&quot;')">
+                    <div class="art-image-wrapper">
+                        <img src="assets/RAGEOFSTARS.webp" alt="Rage of Stars">
+                    </div>
+                    <div class="art-details">
+                        <h3 class="art-title">Rage of Stars</h3>
+                        <p class="art-meta">Mixed Media on paper — 18" x 24"</p>
+                    </div>
+                </div>
+
+                <!-- Work 9 -->
+                <div class="art-card" onclick="openLightbox('assets/YOUNG AND OLD.webp', 'Young and the Old', 'Mixed Media on Watercolor Paper — 8&quot; x 10&quot;')">
+                    <div class="art-image-wrapper">
+                        <img src="assets/YOUNG AND OLD.webp" alt="Young and the Old">
+                    </div>
+                    <div class="art-details">
+                        <h3 class="art-title">Young and the Old</h3>
+                        <p class="art-meta">Mixed Media on Watercolor Paper — 8" x 10"</p>
+                    </div>
+                </div>
+
+                <!-- Work 10 -->
+                <div class="art-card" onclick="openLightbox('assets/Sanji In The Cave Master Study.webp', 'Master Study: Sanji in the Cave', 'Digital CSP— 1828&quot; x 1594&quot; 300 DPI')">
+                    <div class="art-image-wrapper">
+                        <img src="assets/Sanji In The Cave Master Study.webp" alt="Master Study: Sanji in the Cave">
+                    </div>
+                    <div class="art-details">
+                        <h3 class="art-title">Master Study: Sanji in the Cave</h3>
+                        <p class="art-meta">Digital CSP — 1828" x 1594" DPI: 300</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+<div class="section-divider"><span class="star-divider-icon">✦</span></div>
+        <!-- 2. Statement & Exhibition History Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">Statement & Exhibitions</h2>
+            <div class="about-content">
+                <div>
+                    <h3 style="font-weight: 400; margin-bottom: 1rem; letter-spacing: 1px;">ARTIST STATEMENT</h3>
+                    <p class="statement-text">
+                       My practice as an artist is deeply rooted in emotion, personal experience, and the connections that shape our lives. I view art as a reflection of the soul—a medium through which I can process and articulate experiences that transcend words.
+Much of my work serves as a tribute to the people, memories, and moments that leave a lasting mark on me, honoring both loved ones and the memory of those lost. Through intentional research, symbolic choices, and deliberate medium selection, I transform complex emotions into tangible creations. I approach every subject with love and respect above all else, aiming to create works that bridge a connection with viewers and allow them to find their own meaning within the story.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 style="font-weight: 400; margin-bottom: 1.5rem; letter-spacing: 1px;">EXHIBITION HISTORY</h3>
+                    <ul class="exhibition-list">
+                        <li class="exhibition-item">
+                            <span class="exhibition-year">2026</span>
+                            <h4 class="exhibition-title">60th Annual Montgomery Art Guild Regions Bank Exhibition</h4>
+                            <p class="exhibition-venue">Historical Society/Figh Pickett House Montgomery — Juried Group Exhibition</p>
+                        </li>
+                        <li class="exhibition-item">
+                            <span class="exhibition-year">2026</span>
+                            <h4 class="exhibition-title">THE FIVE Mobile Biennial Exhibition</h4>
+                            <p class="exhibition-venue">MAC Gallery — Juried Group Exhibition</p>
+                        </li>
+                        <li class="exhibition-item">
+                            <span class="exhibition-year">2023</span>
+                            <h4 class="exhibition-title">Monroe County Museum Public Collections</h4>
+                            <p class="exhibition-venue">Monroeville, AL - Artwork donated for institutions collection</p>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+       <!-- CV Section -->
+<section id="cv" class="cv-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>CURRICULUM VITAE</h2>
+      <p class="section-subtitle">Fine Art &amp; Studio Practice Overview</p>
+    </div>
+
+    <!-- Minimalist CV Download Banner -->
+    <div class="cv-download-box">
+      <div class="download-info">
+        <h3>Sheridan Salter — Official Curriculum Vitae</h3>
+        <p>Complete record of exhibitions, public collections, press, and studio history (PDF).</p>
+      </div>
+      <a href="Sheridan_CV.pdf" class="btn-download" download target="_blank" rel="noopener">
+        <span>Download Full CV</span>
+        <svg class="download-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+<div class="section-divider"><span class="star-divider-icon">✦</span></div>
+        <!-- 3. Rights, Copyright & Inquiry Section -->
+        <section id="inquire" class="section">
+            <h2 class="section-title">Acquisitions & Inquiries</h2>
+
+            <!-- Copyright & AI Usage Notice -->
+            <div style="max-width: 650px; margin: 0 auto 2.5rem auto; padding: 1.5rem; background-color: var(--surface-color); border-left: 3px solid var(--lavender); border-top: 1px solid var(--border-color); border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); border-radius: 4px;">
+                <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--lavender); margin-bottom: 0.5rem; font-weight: 600;">
+                    Rights & Usage Notice
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+                    © <span id="year"></span> Sheridan Salter. All rights reserved. All artwork, images, and visual content on this site are the exclusive intellectual property of the artist. <strong>No content from this portfolio may be used, scraped, reproduced, or downloaded to train AI models (generative or otherwise) of any kind without express written permission. Unauthorized use or copyright infringement will be prosecuted to the fullest extent of the law.</strong>
+                </p>
+            </div>
+
+            <!-- Inquiry Form Container -->
+            <div class="form-container">
+                <form action="https://formspree.io/f/mgaaqrbe" method="POST">
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="jane@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="interest">Inquiry Type</label>
+                        <select id="interest" name="interest_type" onchange="toggleQuestionBox(this.value)">
+                            <option value="Personal Commission Interest">Personal Commission Interest</option>
+                            <option value="Question">Question</option>
+                            <option value="Business Interest">Business Interest</option>
+                            <option value="Gallery Interest">Gallery Interest</option>
+                        </select>
+                    </div>
+
+                    <!-- Dynamic Question Box (Appears when 'Question' is selected) -->
+                    <div class="form-group" id="question-box-group" style="display: none;">
+                        <label for="specific_question">Your Question for the Artist</label>
+                        <textarea id="specific_question" name="specific_question" rows="3" placeholder="Type your specific question here..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Additional Message / Details</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Specify piece title, ideas, or details..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Send Inquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Fullscreen Lightbox Modal Element -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+        <button class="lightbox-close" onclick="forceCloseLightbox()">&times;</button>
+        <img id="lightbox-img" class="lightbox-content" src="" alt="Enlarged Artwork">
+        <div class="lightbox-caption">
+            <h3 id="lightbox-title"></h3>
+            <p id="lightbox-meta"></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; <span id="footer-year"></span> Sheridan Salter. All rights reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
